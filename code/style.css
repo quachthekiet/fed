@@ -150,6 +150,14 @@ nav {
         top: 56%;
         padding: 0 1rem;
     }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+    .content h2 {
+        font-size: 1.5rem;
+
+    }
 }
 
 @media (max-width: 768px) {
@@ -159,7 +167,7 @@ nav {
 
     .header-content {
         gap: 1rem;
-        top: 60%;
+        top: 45%;
     }
 
     .content h2 {
@@ -167,9 +175,8 @@ nav {
     }
 
     div.header-btn button {
-        width: 8.5rem;
-        height: 2.6rem;
-        font-size: 0.8rem;
+        width: 8.6rem;
+        height: 2.5rem;
     }
 
     .nav-link {
@@ -452,3 +459,6 @@ div.link a {
         gap: 1rem;
     }
 }
+
+
+@media (max-width: 768px) {}
